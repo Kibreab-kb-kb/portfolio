@@ -295,7 +295,7 @@ main {
 
 }
 
-.sidebar.active { max-height: 405px; }
+.sidebar.active { max-height: 415px; }
 
 .sidebar-info {
   position: relative;
@@ -390,14 +390,14 @@ main {
 }
 
 .contact-title {
-  color: var(--light-gray-70);
+  color:white;
   font-size: var(--fs-8);
   text-transform: uppercase;
   margin-bottom: 2px;
 }
 
 .contact-info :is(.contact-link, time, address) {
-  color: var(--white-2);
+  color:red;
   font-size: var(--fs-7);
 }
 
