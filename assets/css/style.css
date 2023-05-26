@@ -334,10 +334,10 @@ main {
   right: -15px;
   border-radius: 0 15px;
   font-size: 13px;
-  color: var(--orange-yellow-crayola);
-  background: var(--border-gradient-onyx);
+  color:white;
+  background:red;
   padding: 10px;
-  box-shadow: var(--shadow-2);
+  box-shadow: green;
   transition: var(--transition-1);
   z-index: 1;
 }
@@ -353,10 +353,10 @@ main {
 }
 
 .info_more-btn:hover,
-.info_more-btn:focus { background: var(--bg-gradient-yellow-1); }
+.info_more-btn:focus { background:green; }
 
 .info_more-btn:hover::before,
-.info_more-btn:focus::before { background: var(--bg-gradient-yellow-2); }
+.info_more-btn:focus::before { background:green; }
 
 .info_more-btn span { display: none; }
 
